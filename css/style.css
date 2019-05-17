@@ -158,7 +158,7 @@ header{
     padding: 5px 25px;
     color: #fff;
     font-family: 'proxima_nova_rgbold';
-    border: 0;
+    border: 1px solid #54d054;
     border-radius: 20px;
 }
 .btn-template:hover{
@@ -232,7 +232,6 @@ header{
     color: #207b20;
     border: 1px solid #207b20;
     border-radius: 20px;
-    margin-top: 30px;
 }
 
 
