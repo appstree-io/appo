@@ -1,0 +1,341 @@
+
+@font-face {
+    font-family: 'proxima_nova_blblack';
+    src: url('proxima_nova_black-webfont.woff2') format('woff2'),
+         url('proxima_nova_black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'proxima_nova_rgbold';
+    src: url('../fonts/proxima_nova_bold-webfont.woff2') format('woff2'),
+         url('../fonts/proxima_nova_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'proxima_novaextrabold';
+    src: url('../fonts/proxima_nova_extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/proxima_nova_extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'proxima_nova_ththin';
+    src: url('../fonts/proxima_nova_thin-webfont.woff2') format('woff2'),
+         url('../fonts/proxima_nova_thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'proxima_nova_rgregular';
+    src: url('../fonts/proximanova-regular-webfont.woff2') format('woff2'),
+         url('../fonts/proximanova-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    font-family: 'proxima_nova_rgregular';
+    color: #828181;
+}
+header{
+    float: left;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.navbar-brand{
+    position: absolute;
+    top: 0;
+    width: 71px;
+    margin: -4px 50%;
+    z-index: 999;;
+}
+.navbar-expand-md .navbar-nav .nav-link{
+    padding: 0;
+}
+.navbar{
+    padding: 0 2rem;
+}
+.nav-item{
+    padding: 0 10px;
+}
+.nav-item a{
+    color: #fff !important;
+    font-size: 16px;
+    padding: 7px 0 !important;
+    border-top: 5px solid transparent;
+}
+.nav-item a:hover{
+    color: #fff;
+    border-top: 5px solid #54d054;
+}
+.header-form {
+    padding: 0;
+
+}
+.header-form-text{
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: transparent !important;
+    border: 1px solid transparent;
+    border-top-right-radius: 100rem;
+    border-bottom-right-radius: 100rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    height: 30px;
+    margin-left: -35px;
+}
+.custom-form{
+    border-radius: 100rem;
+    height: 32px;
+    border: 0;
+    background-color: #ffffffd9;
+}
+
+/* Home Section */
+
+.bg-home{
+    float: left;
+    width: 100%;
+    background: url(../images/main_01.png);
+    height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+/* what we do */
+
+.whatwedo{
+    float: left;
+    width: 100%;
+    padding: 3rem 0;
+}
+.bb-text{
+    border-top: 2px solid #828181;
+    margin: 0 auto;
+    width: 50px;   
+}
+.wedocat-heading{
+    font-weight: bolder;
+    font-size: 24px;
+    padding: 20px 0;
+}
+.wedocat{
+    text-align: center;
+    padding: 0 2rem;
+}
+.btn-template{
+    background-color: #54d054;
+    padding: 5px 25px;
+    color: #fff;
+    font-family: 'proxima_nova_rgbold';
+    border: 0;
+    border-radius: 20px;
+}
+.btn-template:hover{
+    border: 1px solid #54d054;
+    color: #54d054;
+    background-color: transparent;
+}
+
+/* Latest Work */
+
+.latest-work{
+    float: left;
+    width: 100%;
+    padding: 3rem 0;
+    background-color: #54d054;
+}
+.l-color{
+    color: #207b20;
+}
+.bb-text-2{
+    border-top: 2px solid #207b20;
+    margin: 0 auto;
+    width: 50px;   
+}
+.btn-template-w1{
+    background-color: #fff;
+    padding: 5px 25px;
+    color: #207b20;
+    font-family: 'proxima_nova_rgbold';
+    border: 1px solid #207b20;;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right:0;
+}
+.btn-template-w1:hover,
+.btn-template-w2:hover,
+.btn-template-w3:hover{
+    background-color: #207b20;
+    color: #fff;
+}
+.btn-template-w2{
+    background-color: #fff;
+    padding: 5px 25px;
+    color: #207b20;;
+    font-family: 'proxima_nova_rgbold';
+    border: 1px solid #207b20;;
+    border-radius: 0;
+}
+.btn-template-w3{
+    background-color: #fff;
+    padding: 5px 25px;
+    color: #207b20;;
+    font-family: 'proxima_nova_rgbold';
+    border: 1px solid #207b20;
+    border-left:0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.btn-template-w4{
+    background-color: #207b20;
+    padding: 5px 25px;
+    color: #fff;
+    font-family: 'proxima_nova_rgbold';
+    border: 1px solid #207b20;
+    border-left:0;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.btn-template-w4:hover{
+    background-color: #fff;
+    color: #207b20;
+    border: 1px solid #207b20;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+
+/* testimonial */
+.testimonial{
+    float: left;
+    width: 100%;
+    padding: 3rem 0;
+}
+
+
+/* client */
+
+.client{
+    float: left;
+    width: 100%;
+    padding: 3rem 0;
+    background-color: #f1f1f1;
+}
+.btn-template-client{
+    background-color: #dcdcdc;
+    padding: 5px 25px;
+    color: #a59d9d;
+    font-family: 'proxima_nova_rgbold';
+    border: 1px solid #dcdcdc;
+    border-left:0;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.btn-template-client:hover{
+    background-color: #fff;
+}
+.line-h{
+    border-left:1px solid #198318;
+    height: 100px;
+    width: 1px;
+    margin: 15px auto;
+}
+
+/* Meet this team */
+.meetteam{
+    float: left;
+    width: 100%;
+    padding: 3rem 0 0 0;
+    background-color: #54d054;
+}
+.btn-template-team{
+    background-color: #54d054;
+    padding: 5px 25px;
+    color: #fff;
+    font-family: 'proxima_nova_rgbold';
+    border: 1px solid #54d054;
+    border-left:0;
+    border-radius: 20px;
+}
+.bgforteam{
+    float: left;
+    width: 100%;
+    padding: 2rem 0;
+    background-color: #3eba3e;
+    text-align: center;
+}
+
+/*  */
+
+.aboutus{
+    float: left;
+    width: 100%;
+    background: #333333;
+    padding: 2rem 0;
+    color: #cccccc;
+    text-align: center;
+}
+.bb-text-footer{
+    border-top: 2px solid #cccccc;
+    margin: 0 auto;
+    width: 50px;   
+}
+.footer-form{
+    background-color: #444444;
+    border: 0;
+    height: 32px;
+}
+
+/* companies-logo */
+
+.companies-logo{
+    float: left;
+    width: 100%;
+    background: #222222d4;
+    color: #101010;
+    padding: 2rem 0 1rem 0;
+}
+.bb-text-footer-logo{
+    border-top: 2px solid #101010;
+    margin: 0 auto;
+    width: 50px;   
+}
+footer{
+    float: left;
+    width: 100%;
+    background: #111111;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+}
