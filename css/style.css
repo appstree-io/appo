@@ -198,10 +198,30 @@ body{
     width: 100%;
     padding: 50px 0 0 0;
 }
-.feature-img{
-
+.feature-img img{
+    margin-bottom: -50px;
 }
-
+.featuresofapp{
+    padding:20px 0 10px 0;
+    margin: 30px 0;
+}
+.title-feature{
+    color:#233148;
+    font-size: 17px;
+    
+}
+.feature-text{
+    color: #233148;
+    font-size: 14px;
+    display: none;
+}
+.featuresofapp:hover{
+    background-color: #00fff0;
+    box-shadow:0 .5rem 1rem #00fff059 !important;
+}
+.featuresofapp:hover .feature-text{
+    display: block;
+}
 /* ///////////END FEATURES///////////// */
 
 
