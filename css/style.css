@@ -83,7 +83,7 @@ body{
 }
 
 .mobile{
-    float: right;
+    text-align: center;
     padding: 100px 100px 0 0;
     position: relative;
 }
@@ -110,6 +110,22 @@ body{
     width: 100px;
 
 }
+.services-cat{
+    background-color: #fff;
+    padding:30px 20px;
+    text-align: center;
+    border-radius: 6px;
+}
+.services-cat .title{
+    color: #233148;
+    font-size: 17px;
+}
+.services-cat  .text{
+    font-size: 14px;
+    color: #97a4be;
+    line-height: 2;
+    margin: 0;
+}
 
 
 
@@ -117,9 +133,15 @@ body{
 
 
 
-
-
-@media (max-width: 768px){
+@media (max-width:1199px){
+    .home-appo {
+        padding: 60px 20px;
+    }
+}
+@media (max-width: 991px){
+    .mobile img{
+        margin-bottom: -50px;
+    }
     .home-appo {
         padding: 50px 20px;
     }
