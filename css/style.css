@@ -26,6 +26,21 @@ body{
 .dropdown-toggle::after{
     display:none !important;
 }
+.btn-skyblue-dark{
+    background-color: #00fff0;
+    color: #233148;
+    padding: 0.8rem 3rem;
+    border: 1px solid #00fff0;
+    border-radius: 0px;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.btn-skyblue-dark:hover{
+    background-color: transparent;
+    color: #00fff0;
+    border: 1px solid #00fff0;
+    border-radius: 0px;
+}
 .btn-skyblue{
     background-color: #00fff0;
     color: #233148;
@@ -224,7 +239,101 @@ body{
 }
 /* ///////////END FEATURES///////////// */
 
+/* ///////////START EVERYTHING///////////// */
+.everything{
+    background-color: #f5f6fa;
+    float:left;
+    width: 100%;
+    padding: 100px 0 0 0;
+}
+.every{
+    padding: 80px 0;
+}
+.every h2{
+    font-size: 30px;
+    color: #000000;
+    text-align: right;
+    padding-bottom: 50px;
+}
+.circle{
+    padding:2px 6px;
+    border-radius: 100px;
+    background-color: #00fff0;
+    display: inline-block;
+}
+.every .p-text{
+    line-height: 2;
+    color: #97a4be;
+    font-size: 14px;
+    text-align: right;
+}
+.companyname p{
+    font-size: 17px;
+    color: #000;
+}
 
+/* ///////////END EVERYTHING///////////// */
+
+/* ///////////START watch-video///////////// */
+
+
+.watch-video{
+    float: left;
+    width: 100%;
+    padding: 150px 0;
+    background-color: #223047;
+    text-align: center;
+}
+.video h2{
+    font-size: 17px;
+    color: #fff;
+    padding-bottom: 30px;
+}
+.video p{
+    font-size: 14px;
+    color: #fff;
+    line-height: 2;
+    padding: 15px;
+}
+/* ///////////END WATCH VIDEO///////////// */
+
+/* ///////////START DOWNLOAD///////////// */
+.download-section{
+    float: left;
+    width: 100%;
+    padding: 150px 0;
+    text-align: center;
+}
+.download h2{
+    font-size: 30px;
+    color: #233148;
+    padding-bottom: 30px;
+}
+.download p{
+    font-size: 17px;
+    color: #233148;
+    padding-bottom: 30px;
+}
+
+/* ///////////END DOWNLOAD///////////// */
+
+/* ///////////START TEXT ///////////// */
+
+.text-section{
+    float: left;
+    width: 100%;
+    padding: 150px 0;
+    background-color: #223047;
+    text-align: center;
+}
+.texts p{
+    font-size: 18px;
+    color: #00fff1;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+/* ///////////END TEXT///////////// */
 @media (max-width:1199px){
     .home-appo {
         padding: 60px 20px;
