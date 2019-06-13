@@ -334,6 +334,28 @@ body{
 }
 
 /* ///////////END TEXT///////////// */
+
+.avaliable{
+    float: left;
+    width: 100%;
+    padding: 100px 0;
+}
+.img-avaliable{
+    text-align: center;
+}
+.avaliable-text{
+    padding: 100px 0;
+}
+.avaliable-text h2{
+    font-size: 30px;
+    color: #233148;
+    padding-bottom: 30px;
+}
+.avaliable-text p{
+    font-size: 17px;
+    color: #233148;
+    padding-bottom: 30px;
+}
 @media (max-width:1199px){
     .home-appo {
         padding: 60px 20px;
