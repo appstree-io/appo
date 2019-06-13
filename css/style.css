@@ -335,10 +335,14 @@ body{
 
 /* ///////////END TEXT///////////// */
 
+/* ///////////START AVALIABLE///////////// */
+
 .avaliable{
     float: left;
     width: 100%;
     padding: 100px 0;
+    background-color: #f5f6fa;
+    position: relative;
 }
 .img-avaliable{
     text-align: center;
@@ -355,6 +359,57 @@ body{
     font-size: 17px;
     color: #233148;
     padding-bottom: 30px;
+}
+.getapp{
+    width: 320px;
+    height: 70px;
+    background-color:  #00fff1;
+    color: #233148;
+    border: 0;
+    position: absolute;
+    bottom: -32px;
+    left: 45%;
+}
+/* ///////////END AVALIABLE///////////// */
+
+.featureOfwebsite{
+    float: left;
+    width: 100%;
+    padding: 100px 0;
+}
+.featureWebsite h3{
+    font-size: 17px;
+    color: #233148;
+    padding-bottom: 10px;
+}
+.featureWebsite p a{
+    color: #97a4be;
+    font-size: 14px;
+}
+.getintouch{
+    float: left;
+    width: 100%;
+    padding:0 0 100px 0;
+}
+.custom-form{
+    background-color: #f5f6fa;
+    height:52.5px ;
+    border: 0;
+    border-radius: 0;
+}
+.getintouch h2{
+    font-size: 30px;
+    color: #233148;
+    padding-bottom: 10px;
+    padding:0 0 30px 0;
+    text-align: center;
+}
+.getintouch p {
+    color: #97a4be;
+    font-size: 14px;
+    padding:0 0 30px 0;
+    text-align: center;
+
 }
 @media (max-width:1199px){
     .home-appo {
