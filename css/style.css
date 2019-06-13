@@ -214,7 +214,7 @@ body{
     padding: 50px 0 0 0;
 }
 .feature-img img{
-    margin-bottom: -50px;
+    margin-bottom: -80px;
 }
 .featuresofapp{
     padding:20px 0 10px 0;
@@ -370,7 +370,10 @@ body{
     bottom: -32px;
     left: 45%;
 }
+
 /* ///////////END AVALIABLE///////////// */
+
+/* ///////////START featureOfwebsite///////////// */
 
 .featureOfwebsite{
     float: left;
@@ -386,6 +389,11 @@ body{
     color: #97a4be;
     font-size: 14px;
 }
+
+/* ///////////END featureOfwebsite///////////// */
+
+/* ///////////START GET IN TOUCH///////////// */
+
 .getintouch{
     float: left;
     width: 100%;
@@ -406,17 +414,90 @@ body{
 }
 .getintouch p {
     color: #97a4be;
-    font-size: 14px;
+    font-size: 17px;
     padding:0 0 30px 0;
     text-align: center;
 
 }
+/* ///////////START GET IN TOUCH///////////// */
+
+/* ///////////START FOOTER///////////// */
+
+footer{
+    float: left;
+    width: 100%;
+    padding: 5px 0;
+    background-color: #223047;
+}
+footer p{
+    color: #00fff0;
+    font-size: 17px;
+    margin: 0;
+    padding: 19px;
+}
+.social{
+    margin: 0;
+    padding: 0;
+}
+.social li{
+    display: inline-block;
+    padding: 15px 25px 12px 25px;
+}
+.social li a span{
+    color: #fff;
+}
+
 @media (max-width:1199px){
     .home-appo {
         padding: 60px 20px;
     }
+    .smart-phone-text {
+        padding: 100px;
+    }
+    .stable-text p {
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+    .stable-img {
+        padding: 25px 0;
+    }
+    .services {
+        padding: 50px 0;
+    }
+    .every {
+        padding: 26px 0;
+    }
+    .everything {
+        padding: 50px 0 0 0;
+    }
+    .features{
+        padding: 0px 0 0 0;
+    }
+    .mobile img {
+        margin-bottom: -50px;
+    }
+    .services-heading h2{
+        padding: 20px 0;
+    }
+    .stable,
+    .featureOfwebsite,
+    .avaliable,
+    .watch-video,
+    .text-section,
+    .download-section {
+        padding: 50px 0;
+    }
+    .getintouch {
+        padding: 0 0 50px 0;
+    }
+    .stable-text h2 {
+        padding-bottom: 10px;
+    }
 }
 @media (max-width: 991px){
+    .social li {
+        padding: 10px;
+    }
     .mobile img{
         margin-bottom: -50px;
     }
@@ -438,5 +519,15 @@ body{
     }
     .services {
         padding: 20px 0;
+    }
+    .getapp {
+        width: 200px;
+        left: 28%;
+    }
+    .smart-phone-text {
+        padding: 50px;
+    }
+    footer p{
+        text-align: center;
     }
 }
