@@ -530,4 +530,13 @@ footer p{
     footer p{
         text-align: center;
     }
+    .services-cat {
+        background-color: #fff;
+        padding: 15px 5px;
+        margin: 10px 0 0 0; 
+    }
+}
+
+@media (max-width: 768px){
+    
 }
